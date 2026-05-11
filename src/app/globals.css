@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@custom-variant 3xl (@media (width >=1620px));
+
+:root {
+  --font-family-base: "SF Pro text", Arial, Helvetica, sans-serif;
+}
+
+@theme inline {
+  --font-sans: var(--font-family-base);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+
+  --color-primary: #a651fb;
+}
+
+html {
+  font-family: var(--font-family-base);
+}
+
+body {
+  min-height: 100%;
+  font-family: var(--font-family-base);
+}
