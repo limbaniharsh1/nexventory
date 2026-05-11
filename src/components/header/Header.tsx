@@ -11,6 +11,7 @@ import { RiMenuLine } from "react-icons/ri";
 import { header } from "@/data/header";
 import { CLIENT } from "@/constants/routes";
 import { FaBarsStaggered } from "react-icons/fa6";
+import { Button } from "../ui/button";
 
 const Header = () => {
   const pathname = usePathname();
@@ -47,13 +48,16 @@ const Header = () => {
 
           {/* CTA */}
           <div className="">
+            <Button>
+
             <Link
               href=""
               target="_blank"
-              className="rounded-full bg-primary px-6 py-3 text-sm sm:text-base font-semibold text-white"
-            >
+              // className="rounded-full bg-primary px-6 py-3 text-sm sm:text-base font-semibold text-white"
+              >
               Get Started Free
             </Link>
+              </Button>
           </div>
         </div>
       </div>
