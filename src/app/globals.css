@@ -195,6 +195,6 @@ body {
 
 @layer components {
   .container {
-    @apply max-w-400 3xl:max-w-500 mx-auto px-4 sm:px-20;
+    @apply max-w-800 3xl:max-w-500 mx-auto px-4 sm:px-20;
   }
 }

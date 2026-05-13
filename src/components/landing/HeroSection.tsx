@@ -42,9 +42,9 @@ export function HeroSection() {
       </div>
 
       <div className="relative z-10 container py-18">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-24 lg:gap-32">
+        <div className="flex flex-col xl:flex-row items-center justify-between gap-24 lg:gap-32">
           {/* Left Side Content */}
-          <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-8 lg:max-w-[700px] shrink-0">
+          <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-8 lg:max-w-[700px] shrink-0">
             {/* Top Badge */}
             <div
               data-aos="fade-up"
