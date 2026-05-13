@@ -1,7 +1,9 @@
-import Image from "next/image";
+import { HeroSection } from "@/components/landing/HeroSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center"></div>
+    <main className="bg-[#fafaff]">
+      <HeroSection />
+    </main>
   );
 }
