@@ -19,8 +19,8 @@ const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="fixed left-0 top-0 z-50 w-full border-b border-black/10 bg-white">
-      <div className="mx-auto flex h-20 max-w-400 items-center justify-between px-4 sm:px-20">
+    <header className="sticky left-0 top-0 z-50 w-full border-b border-black/10 bg-white">
+      <div className="flex h-20 container items-center justify-between">
         {/* Left */}
         <div className="flex items-center gap-3">
           <button
@@ -48,7 +48,7 @@ const Header = () => {
 
           {/* CTA */}
           <div className="">
-            <Button>
+            <Button variant='premium' size="xl">
 
             <Link
               href=""

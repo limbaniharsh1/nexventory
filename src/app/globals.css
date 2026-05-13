@@ -43,8 +43,9 @@
 
 @theme inline {
   --font-sans: var(--font-sans);
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
 
   --color-primary: #a651fb;
 
@@ -125,7 +126,8 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 
   @keyframes float {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateY(0px);
     }
     50% {
@@ -188,5 +190,11 @@ body {
   }
   html {
     @apply font-sans;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-400 3xl:max-w-500 mx-auto px-4 sm:px-20;
   }
 }
