@@ -19,7 +19,7 @@ const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky left-0 top-0 z-50 w-full border-b border-black/10 bg-white">
+    <header className="fixed left-0 top-0 z-50 w-full border-b border-black/5 bg-white/10  backdrop-blur-lg">
       <div className="flex h-20 container items-center justify-between">
         {/* Left */}
         <div className="flex items-center gap-3">

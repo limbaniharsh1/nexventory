@@ -1,0 +1,28 @@
+@layer components {
+  .banner {
+    @apply relative min-h-fit;
+
+    background: linear-gradient(
+      180deg,
+      rgba(166, 81, 251, 0.25) 0%,
+      rgba(255, 255, 255, 0) 50%
+    );
+
+    /* min-height: 100vh;
+    max-height: 900px; */
+  }
+
+  .banner:after {
+    position: absolute;
+    content: "";
+    background-image: url("/images/banner/lines.webp");
+    background-repeat: no-repeat;
+    background-position: 0 500%;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* z-index: -1; */
+  }
+}

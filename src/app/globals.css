@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./fonts.css";
+@import "./app.css";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
@@ -196,5 +197,9 @@ body {
 @layer components {
   .container {
     @apply max-w-800 3xl:max-w-500 mx-auto px-4 sm:px-20;
+  }
+
+  .page-top-padding {
+    @apply pt-20;
   }
 }
