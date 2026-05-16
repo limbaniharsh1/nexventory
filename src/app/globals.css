@@ -9,7 +9,7 @@
 :root {
   --font-family-base: "SF Pro text", Arial, Helvetica, sans-serif;
   --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --foreground: oklch(28.094% 0.00003 271.152);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -201,5 +201,25 @@ body {
 
   .page-top-padding {
     @apply pt-20;
+  }
+
+  .section-py {
+    @apply py-16 lg:py-25;
+  }
+
+  .section-pt {
+    @apply pt-25;
+  }
+
+  .section-pb {
+    @apply pb-25;
+  }
+
+  .title {
+    @apply text-[28px] sm:text-[34px] lg:text-[45px] font-semibold leading-tight;
+  }
+
+  .description {
+    @apply text-base leading-snug text-gray-600 xl:text-lg;
   }
 }

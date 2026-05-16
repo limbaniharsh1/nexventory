@@ -1,9 +1,11 @@
-import { HeroSection } from "@/components/landing/HeroSection";
+import { HeroSection } from "@/components/landing";
+import State from "@/components/landing/State";
 
 export default function Home() {
   return (
-    <main className="bg-[#fafaff]">
+    <main className="">
       <HeroSection />
+      <State/>
     </main>
   );
 }

@@ -41,8 +41,8 @@ export function HeroSection() {
         />
       </div>
 
-      <div className="relative z-10 container py-18">
-        <div className="flex flex-col xl:flex-row items-center justify-between gap-24 lg:gap-32">
+      <div className="relative z-10 container pt-15 lg:pt-20 xl:pb-20">
+        <div className="flex flex-col xl:flex-row items-center justify-between gap-16 sm:gap-24 xl:gap-32">
           {/* Left Side Content */}
           <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-8 lg:max-w-[700px] shrink-0">
             {/* Top Badge */}
@@ -70,7 +70,7 @@ export function HeroSection() {
               <h1
                 data-aos="fade-up"
                 data-aos-delay="100"
-                className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-[1.2]"
+                className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-slate-900 leading-[1.2]"
               >
                 Scale Amazon Revenue <br />
                 with Intelligent <br />
@@ -141,13 +141,13 @@ export function HeroSection() {
             )}
           >
             {/* Soft Glow behind image */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-br from-purple-200/20 to-blue-200/20 rounded-full blur-[60px] animate-pulse" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%]  from-purple-200/20 to-blue-200/20 rounded-full blur-[60px] animate-pulse" />
 
             <div className="relative animate-float z-20 w-full flex justify-center lg:justify-end">
               <Image
                 src={rightFuture}
                 alt="AI Future Dashboard"
-                className="w-full max-w-[650px] lg:max-w-[800px] h-auto drop-shadow-[0_0px_10px_rgba(166,81,251,0.2)] rounded-3xl border border-purple-1 00"
+                className="w-full max-w-[650px] lg:max-w-[800px] h-auto xl:drop-shadow-[0_0px_5px_rgba(166,81,251,0.2)] rounded-3xl border border-purple-1 00"
                 priority
               />
 
