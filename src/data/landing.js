@@ -5,7 +5,12 @@ import { GiGearHammer } from "react-icons/gi";
 import { HiMiniChartBar } from "react-icons/hi2";
 import { IoPeopleOutline, IoRocketOutline } from "react-icons/io5";
 import { LiaGlobeAmericasSolid } from "react-icons/lia";
-import { LuBrain, LuCircleDollarSign, LuRocket, LuTarget } from "react-icons/lu";
+import {
+  LuBrain,
+  LuCircleDollarSign,
+  LuRocket,
+  LuTarget,
+} from "react-icons/lu";
 import { PiChartLineDownBold, PiChartLineUpBold } from "react-icons/pi";
 import { RiSettings3Line } from "react-icons/ri";
 
@@ -111,8 +116,7 @@ export const problems = [
     icon: IoPeopleOutline,
     img: "/images/problems/44.png",
     title: "Campaign Management Overload",
-    description:
-      `Juggling Seller Central, multiple ASINs, Sponsored Products, Brands, and Display campaigns across 5+ ad groups creates the "Monday Morning Spreadsheet Hell" that burns out sellers before Q4 even starts.`,
+    description: `Juggling Seller Central, multiple ASINs, Sponsored Products, Brands, and Display campaigns across 5+ ad groups creates the "Monday Morning Spreadsheet Hell" that burns out sellers before Q4 even starts.`,
     feature: [
       {
         icon: RiSettings3Line,
@@ -138,30 +142,36 @@ export const platform = [
     icon: FaRegEye,
     img: "/images/platform/plate1.png",
     title: "Real-Time Analytics",
+    desc: "See your true ACoS update every hour — not 24 hours later. Catch issues before they burn $500+.",
   },
   {
     icon: LuBrain,
     img: "/images/platform/plate2.png",
     title: "AI Bid Optimization",
+    desc: "Our engine adjusts bids automatically when CPCs spike. Maintain target ACoS without manual spreadsheet work.",
   },
   {
     icon: GiGearHammer,
     img: "/images/platform/plate3.png",
     title: "Campaign Automation",
+    desc: "Set rules once. Pause losing keywords, increase winning bids, shift budgets between SP/SB/SD — while you sleep.",
   },
   {
     icon: LuRocket,
     img: "/images/platform/plate4.png",
     title: "Smart Recommendations",
+    desc: "Not generic 'bid suggestions.' Specific actions like: 'Pause [keyword] in [ASIN] — $12 spend, 0 sales.'",
   },
   {
     icon: LuCircleDollarSign,
     img: "/images/platform/plate5.png",
     title: "Budget Intelligence",
+    desc: "See exactly which ASINs are eating budget vs. driving profit. Stop funding losers.",
   },
   {
     icon: PiChartLineUpBold,
     img: "/images/platform/plate6.png",
-    title: "Performance Monitoring",
+    title: "Performance Alerts",
+    desc: "Get notified when campaigns exceed targets — so you can act before Q4 drains dry.",
   },
 ];
