@@ -1,11 +1,13 @@
 import { HeroSection } from "@/components/landing";
-import State from "@/components/landing/State";
+import Problems from "@/components/landing/problems";
+import State from "@/components/landing/states";
 
 export default function Home() {
   return (
     <main className="">
       <HeroSection />
-      <State/>
+      <State />
+      <Problems />
     </main>
   );
 }

@@ -2,7 +2,7 @@
 import React from "react";
 
 import Counter from "./Counter";
-import { statesData } from "../../data/landing";
+import { statesData } from "../../../data/landing";
 
 function State() {
   return (
@@ -34,11 +34,7 @@ function State() {
             const Icon = item.icon;
 
             return (
-              <div
-                data-aos="fade-up"
-                data-aos-delay={index * 150}
-                key={index}
-              >
+              <div data-aos="fade-up" data-aos-delay={index * 150} key={index}>
                 <article className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
                   <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-purple-100 text-2xl text-purple-700">
                     <Icon />

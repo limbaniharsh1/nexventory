@@ -50,6 +50,8 @@
 
   --color-primary: #a651fb;
 
+  --color-vista-white: #f8f8f8; 
+
   --font-heading: var(--font-sans);
 
   --color-sidebar-ring: var(--sidebar-ring);
@@ -204,7 +206,7 @@ body {
   }
 
   .section-py {
-    @apply py-16 lg:py-25;
+    @apply py-16 lg:py-30;
   }
 
   .section-pt {

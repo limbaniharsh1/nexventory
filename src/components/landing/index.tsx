@@ -8,7 +8,7 @@ import rightFuture from "@/assets/right-future.png";
 
 export function HeroSection() {
   return (
-    <section className="relative banner page-top-padding w-full min-h-[min(calc(100vh),900px)] flex items-center overflow-hidden  selection:bg-purple-600 selection:text-white">
+    <section className="relative banner page-top-padding w-full min-h-[min(calc(100vh),800px)] flex items-center overflow-hidden  selection:bg-purple-600 selection:text-white">
       {/* Background Grid Pattern */}
       {/* <div
         className="absolute inset-0 z-0 opacity-[0.05] pointer-events-none"
