@@ -9,7 +9,7 @@ const PlatformGrid = ({ platform }: PlatformGridProps) => {
   return (
     <div className="content-mt grid gap-4.5 md:grid-cols-2 xl:grid-cols-3">
       {platform.map((item, index) => {
-        const Icon = item.icon;
+        const Icon = item.icon; 
 
         return (
           <article
