@@ -51,7 +51,7 @@ function Counter({ value }: CounterProps) {
           duration={3}
           decimals={decimals}
           separator=","
-          suffix={suffix}
+          suffix={suffix+"+"}
         />
       ) : (
         "0"

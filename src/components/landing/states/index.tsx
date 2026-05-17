@@ -13,18 +13,17 @@ function State() {
       <div className="">
         {/* SEO Content */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="badge">
-            AI Marketing Analytics
-          </div>
+          <div className="badge">Powering Amazon Sellers</div>
 
           <h2 id="platform-stats-heading" className="title">
-            Real-World Use Cases and Applications
+            Trusted by Sellers Driving Real Results
           </h2>
 
           <p className="mt-5 description">
-            Track marketing performance in real time with automated campaign
-            optimization, AI-driven recommendations, audience intelligence, and
-            advanced analytics dashboards designed for modern businesses.
+            Real numbers from real Amazon sellers. Our AI-powered platform
+            automates campaign optimization, analyzes millions of keywords, and
+            delivers smart recommendations that turn wasted ad spend into
+            measurable growth — 24/7.
           </p>
         </div>
 

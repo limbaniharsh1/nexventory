@@ -24,7 +24,7 @@ const Platform = () => {
             id="platform-heading"
             className="mx-auto  max-w-3xl title"
           >
-            The Operating System for Amazon Advertising
+            Everything You Need to Fix Your PPC In One Dashboard
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl description">

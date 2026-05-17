@@ -12,22 +12,22 @@ import { RiSettings3Line } from "react-icons/ri";
 export const statesData = [
   {
     icon: BsBarChart,
-    title: "Real-Time Campaign Analytics",
-    count: "4.30M",
+    title: "Ad Spend Optimized",
+    count: "4.30M+",
   },
   {
     icon: RiSettings3Line,
-    title: "Automated Optimization Engine",
+    title: "Keywords Analyzed",
     count: "2.35M",
   },
   {
     icon: LiaGlobeAmericasSolid,
     title: "AI-Powered Recommendations",
-    count: "30.0K",
+    count: "30.0K+",
   },
   {
     icon: IoPeopleOutline,
-    title: "Multi-Account Intelligence",
+    title: "Campaigns Managed",
     count: "17,331",
   },
 ];
@@ -36,9 +36,9 @@ export const problems = [
   {
     icon: HiMiniChartBar,
     img: "/images/problems/11.png",
-    title: "Rising Ad Costs",
+    title: "Your CPC is Climbing Every Month",
     description:
-      "Businesses are facing increasing costs to acquire customers through digital advertising, making it difficult to maintain profitability.",
+      "Amazon CPCs are climbing 20-40% YoY while conversion rates drop. Manual bidding can't keep pace.",
     feature: [
       {
         icon: LuTarget,
@@ -60,9 +60,9 @@ export const problems = [
   {
     icon: RiSettings3Line,
     img: "/images/problems/22.png",
-    title: "Delayed Optimization",
+    title: "The 24-Hour Data Lag That Kills ROI",
     description:
-      "Manual campaign monitoring and slow optimization decisions prevent businesses from reacting quickly to market changes and performance drops.",
+      "By the time Amazon's data updates, your money is already wasted on yesterdays trends.",
     feature: [
       {
         icon: BsBarChart,
@@ -85,24 +85,24 @@ export const problems = [
   {
     icon: LiaGlobeAmericasSolid,
     img: "/images/problems/33.png",
-    title: "Poor Data Visibility",
+    title: "You're Flying Blind on Performance",
     description:
-      "Scattered analytics and disconnected advertising platforms make it difficult to gain clear insights into campaign performance and customer behavior.",
+      "You see ACoS per campaign, but not profitability per SKU. Is that bestseller actually making money?",
     feature: [
       {
         icon: BsBarChart,
         title:
-          "Data spread across multiple platforms creates reporting confusion.",
+          "ACoS looks fine, but TACoS per SKU tells a different story you can't see in reports.",
       },
       {
         icon: HiMiniChartBar,
         title:
-          "Lack of real-time insights slows down strategic decision-making.",
+          "Search term data shows clicks, not which keywords actually drove profitable conversions.",
       },
       {
         icon: PiChartLineDownBold,
         title:
-          "Incomplete visibility results in missed optimization opportunities.",
+          "Without SKU-level profitability, you scale losing products thinking they're winners.",
       },
     ],
   },
@@ -112,22 +112,22 @@ export const problems = [
     img: "/images/problems/44.png",
     title: "Campaign Management Overload",
     description:
-      "Managing multiple campaigns, audiences, and ad platforms manually becomes overwhelming and time-consuming for growing businesses.",
+      `Juggling Seller Central, multiple ASINs, Sponsored Products, Brands, and Display campaigns across 5+ ad groups creates the "Monday Morning Spreadsheet Hell" that burns out sellers before Q4 even starts.`,
     feature: [
       {
         icon: RiSettings3Line,
         title:
-          "Handling multiple ad accounts manually increases operational complexity.",
+          "Exporting 15 different campaign types into Excel every Monday morning isn't scaling—it's breaking your team.",
       },
       {
         icon: LuTarget,
         title:
-          "Constant monitoring and adjustments consume valuable team resources.",
+          "Manual bid adjustments take 4-6 hours daily; time you could spend sourcing new products or improving listings.",
       },
       {
         icon: PiChartLineDownBold,
         title:
-          "Management overload leads to inconsistent campaign performance.",
+          "One missed optimization during Prime Day = thousands in wasted budget you can't get back.",
       },
     ],
   },
@@ -142,7 +142,7 @@ export const platform = [
   {
     icon: LuBrain,
     img: "/images/platform/plate2.png",
-    title: "AI Optimization Engine",
+    title: "AI Bid Optimization",
   },
   {
     icon: GiGearHammer,

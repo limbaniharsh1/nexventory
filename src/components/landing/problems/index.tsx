@@ -15,21 +15,17 @@ const Problems = () => {
       <div className="">
         {/* SEO CONTENT */}
         <div className="mx-auto max-w-3xl text-center">
-          <div className="badge">
-            Marketing Problems
-          </div>
+          <div className="badge">Amazon PPC Challenges</div>
 
-          <h2
-            id="problems-heading"
-            className="mt-4 title"
-          >
-            Common Digital Advertising Challenges Businesses Face
+          <h2 id="problems-heading" className="mt-4 title">
+            Why Most Amazon Sellers Waste Money on PPC
           </h2>
 
           <p className="mt-6 description">
-            Rising advertising costs, poor campaign targeting, inefficient
-            bidding strategies, and declining ROI are major problems affecting
-            modern digital marketing performance.
+            From climbing CPCs eating your margins to 24-hour data lags burning
+            cash overnight — Amazon PPC has gotten harder to manage manually.
+            Most sellers lose 20-30% of ad spend to inefficiencies they can't
+            see until it's too late.
           </p>
         </div>
 
