@@ -13,6 +13,8 @@ const PlatformGrid = ({ platform }: PlatformGridProps) => {
 
         return (
           <article
+          data-aos="fade-up"
+          data-aos-delay={index * 150}
             key={index}
             className="group relative overflow-hidden rounded-[30px] border border-white/10 bg-white p-5 lg:p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:border-violet-500/40 hover:bg-white/[0.05]"
           >
