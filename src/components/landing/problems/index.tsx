@@ -12,12 +12,12 @@ const Problems = () => {
       aria-labelledby="problems-heading"
       className="container section-pb"
     >
-      <div className="container mx-auto px-4">
+      <div className="">
         {/* SEO CONTENT */}
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-violet-400">
+          <div className="badge">
             Marketing Problems
-          </p>
+          </div>
 
           <h2
             id="problems-heading"

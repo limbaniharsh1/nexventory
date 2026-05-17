@@ -8,16 +8,16 @@ function State() {
   return (
     <section
       aria-labelledby="platform-stats-heading"
-      className="bg-white container section-py"
+      className="bg-white container section-pb mt-16 lg:mt-20"
     >
-      <div className="container mx-auto px-4">
+      <div className="">
         {/* SEO Content */}
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.1em] text-purple-600">
+          <div className="badge">
             AI Marketing Analytics
-          </p>
+          </div>
 
-          <h2 id="platform-stats-heading" className="mt-4 title">
+          <h2 id="platform-stats-heading" className="title">
             Real-World Use Cases and Applications
           </h2>
 
@@ -29,7 +29,7 @@ function State() {
         </div>
 
         {/* Stats */}
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="content-mt grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
           {statesData.map((item, index) => {
             const Icon = item.icon;
 

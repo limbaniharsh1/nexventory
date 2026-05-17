@@ -1,6 +1,7 @@
 // components/problems/ProblemCard.tsx
 "use client";
 
+import Image from "next/image";
 import React from "react";
 
 type ProblemCardProps = {
@@ -51,12 +52,16 @@ const ProblemCard = ({ item, index, sectionRef }: ProblemCardProps) => {
         </div>
 
         {/* IMAGE */}
-        <div className={`relative h-full hidden xl:block ${index % 2 ? "lg:order-2" : ""}`}>
+        <div
+          className={`relative h-full hidden xl:block ${index % 2 ? "lg:order-2" : ""}`}
+        >
           <div className="relative h-full min-h-[420px] overflow-hidden">
-            <img
+            <Image
+              width={660}
+              height={542}
               src={item.img}
               alt={item.title}
-              className="h-full max-w-150 mx-auto xl:max-w-full w-full object-contain drop-shadow-[5px_35px_20px_rgba(139,92,246,0.25)]"
+              className="w-full h-full max-w-150 mx-auto xl:max-w-full object-contain drop-shadow-[5px_35px_20px_rgba(139,92,246,0.25)]"
             />
           </div>
         </div>

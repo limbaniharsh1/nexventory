@@ -44,7 +44,7 @@ export function HeroSection() {
       <div className="relative z-10 container pt-15 lg:pt-20 xl:pb-20">
         <div className="flex flex-col xl:flex-row items-center justify-between gap-16 sm:gap-24 xl:gap-32">
           {/* Left Side Content */}
-          <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-8 lg:max-w-[700px] shrink-0">
+          <div className="flex flex-col items-center xl:items-start text-center xl:text-left space-y-6 sm:space-y-8 lg:max-w-[700px] shrink-0">
             {/* Top Badge */}
             <div
               data-aos="fade-up"
@@ -125,7 +125,7 @@ export function HeroSection() {
                 "pt-4 flex items-center gap-3",
               )}
             >
-              <div className="h-[1px] w-10 bg-slate-200" />
+              <div className="h-[1px] w-10 bg-slate-200 hidden sm:block" />
               <p className="text-[10px] text-slate-400 font-bold tracking-[0.2em] uppercase">
                 Trusted by modern Amazon growth teams
               </p>

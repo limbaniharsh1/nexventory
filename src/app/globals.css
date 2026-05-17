@@ -50,7 +50,7 @@
 
   --color-primary: #a651fb;
 
-  --color-vista-white: #f8f8f8; 
+  --color-vista-white: #f8f8f8;
 
   --font-heading: var(--font-sans);
 
@@ -198,7 +198,7 @@ body {
 
 @layer components {
   .container {
-    @apply max-w-800 3xl:max-w-500 mx-auto px-4 sm:px-20;
+    @apply max-w-800 3xl:max-w-500 mx-auto px-5 sm:px-20;
   }
 
   .page-top-padding {
@@ -210,11 +210,15 @@ body {
   }
 
   .section-pt {
-    @apply pt-25;
+    @apply pt-16 lg:pt-25;
   }
 
   .section-pb {
-    @apply pb-25;
+    @apply pb-16 lg:pb-25;
+  }
+
+  .content-mt{
+    @apply mt-12 sm:mt-15;
   }
 
   .title {
@@ -223,5 +227,13 @@ body {
 
   .description {
     @apply text-base leading-snug text-gray-600 xl:text-lg;
+  }
+
+  .white-badge {
+    @apply inline-flex items-center rounded-full border border-violet-500/20 bg-white/90 px-5 py-2 text-sm font-medium text-primary backdrop-blur-xl tracking-[0.1em] mb-3 sm:mb-5;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-5 py-2 text-sm font-medium text-primary backdrop-blur-xl tracking-[0.1em] mb-3 sm:mb-5;
   }
 }

@@ -66,7 +66,7 @@ const ProblemsAnimation = ({
   }, []);
 
   return (
-    <div className="mt-16 flex flex-col gap-10">
+    <div className="content-mt flex flex-col gap-6 sm:gap-10">
       {problems.map((item, index) => (
         <ProblemCard
           key={index}

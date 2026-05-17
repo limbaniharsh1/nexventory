@@ -1,10 +1,12 @@
 import { AiOutlineDollar } from "react-icons/ai";
 import { BsBarChart } from "react-icons/bs";
+import { FaEye, FaRegEye } from "react-icons/fa6";
+import { GiGearHammer } from "react-icons/gi";
 import { HiMiniChartBar } from "react-icons/hi2";
-import { IoPeopleOutline } from "react-icons/io5";
+import { IoPeopleOutline, IoRocketOutline } from "react-icons/io5";
 import { LiaGlobeAmericasSolid } from "react-icons/lia";
-import { LuTarget } from "react-icons/lu";
-import { PiChartLineDownBold } from "react-icons/pi";
+import { LuBrain, LuCircleDollarSign, LuRocket, LuTarget } from "react-icons/lu";
+import { PiChartLineDownBold, PiChartLineUpBold } from "react-icons/pi";
 import { RiSettings3Line } from "react-icons/ri";
 
 export const statesData = [
@@ -128,5 +130,38 @@ export const problems = [
           "Management overload leads to inconsistent campaign performance.",
       },
     ],
+  },
+];
+
+export const platform = [
+  {
+    icon: FaRegEye,
+    img: "/images/platform/plate1.png",
+    title: "Real-Time Analytics",
+  },
+  {
+    icon: LuBrain,
+    img: "/images/platform/plate2.png",
+    title: "AI Optimization Engine",
+  },
+  {
+    icon: GiGearHammer,
+    img: "/images/platform/plate3.png",
+    title: "Campaign Automation",
+  },
+  {
+    icon: LuRocket,
+    img: "/images/platform/plate4.png",
+    title: "Smart Recommendations",
+  },
+  {
+    icon: LuCircleDollarSign,
+    img: "/images/platform/plate5.png",
+    title: "Budget Intelligence",
+  },
+  {
+    icon: PiChartLineUpBold,
+    img: "/images/platform/plate6.png",
+    title: "Performance Monitoring",
   },
 ];
